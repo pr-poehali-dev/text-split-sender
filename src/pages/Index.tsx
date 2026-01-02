@@ -208,18 +208,29 @@ const Index = () => {
           </div>
           
           <Card className="p-8 bg-background text-foreground">
-            <p className="text-lg leading-relaxed mb-6">
-              Мы гарантируем, что <strong>минимум 95% вашего рекламного бюджета</strong> будет 
-              инвестировано в переходы по релевантным товарам, которые есть в наличии на вашем складе.
-            </p>
-            <div className="border-t pt-6">
-              <p className="text-muted-foreground leading-relaxed">
-                Если по итогам месяца доля нецелевых расходов по нашей вине превысила 5%, 
-                мы компенсируем разницу, уменьшая стоимость обслуживания в следующем месяце на сумму перерасхода.
+            <div className="mb-8">
+              <p className="text-lg leading-relaxed text-foreground">
+                Мы не даем пустых обещаний по окупаемости. Вместо этого мы даем твердую, измеримую гарантию на качество НАШЕЙ работы, которая закрепляется в договоре.
               </p>
             </div>
-            <div className="mt-6 p-4 bg-primary/5 rounded-lg">
-              <p className="text-sm font-semibold">
+
+            <div className="bg-primary/10 p-6 rounded-lg mb-6">
+              <h4 className="font-bold text-xl mb-4 text-foreground">
+                Стандарт "Товарный Снайпер 95/5":
+              </h4>
+              <p className="text-lg leading-relaxed text-foreground">
+                Мы гарантируем, что минимум 95% вашего рекламного бюджета будет инвестировано в переходы по релевантным связкам: поисковый запрос – заголовок объявления – карточка товара. Никаких кликов на синие подушки про запросе на зеленые.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-primary pl-6 mb-6">
+              <p className="text-muted-foreground leading-relaxed">
+                Если по итогам отчетного месяца внутренний аудит кампании показывает, что доля нецелевых расходов по нашей вине превысила 5%, мы компенсируем вам эту разницу, уменьшая стоимость "Сервисного Обслуживания" в следующем месяце на сумму перерасхода.
+              </p>
+            </div>
+
+            <div className="bg-secondary/10 p-5 rounded-lg">
+              <p className="text-base font-semibold text-foreground leading-relaxed">
                 Это встроенный механизм защиты ваших инвестиций, который отличает нашу систему от всего, что есть на рынке.
               </p>
             </div>
