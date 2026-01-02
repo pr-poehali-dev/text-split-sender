@@ -185,7 +185,7 @@ const Index = () => {
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Создаю для вас персональный, настроенный дашборд прямо внутри вашего аккаунта Яндекс.Метрики. На одном экране вы будете видеть 3-5 ключевых показателей вашего бизнеса (ДРР, CPO, ROMI, выручка) в виде понятных графиков. Это ваш личный "штурвал" для контроля ситуации в любой момент.
               </p>
-              <p className="text-sm font-semibold text-primary">Ценность: 25 000 рублей.</p>
+              <p className="text-sm font-semibold text-primary">Обычная цена: 25 000 ₽</p>
             </Card>
 
             <Card className="p-4 md:p-6 hover:shadow-lg transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.1s' }}>
@@ -201,7 +201,7 @@ const Index = () => {
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Через 3 месяца совместной работы я провожу отдельную стратегическую сессию и готовлю для вас пошаговый план: как увеличить количество заказов в 2-3 раза, сохранив или улучшив показатели рентабельности.
               </p>
-              <p className="text-sm font-semibold text-primary">Ценность: 30 000 рублей.</p>
+              <p className="text-sm font-semibold text-primary">Обычная цена: 30 000 ₽</p>
             </Card>
 
             <Card className="p-4 md:p-6 hover:shadow-lg transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.2s' }}>
@@ -217,7 +217,7 @@ const Index = () => {
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Простой чек-лист из 5 пунктов, который позволит вам в любой момент самостоятельно убедиться, что система работает как надо.
               </p>
-              <p className="text-sm font-semibold text-primary">Ценность: 10 000 рублей.</p>
+              <p className="text-sm font-semibold text-primary">Обычная цена: 10 000 ₽</p>
             </Card>
           </div>
         </div>
