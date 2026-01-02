@@ -78,7 +78,7 @@ const Index = () => {
                   </h3>
                 </div>
               </div>
-              <div className="space-y-4 ml-16">
+              <div className="space-y-4 ml-0 md:ml-16">
                 <div className="bg-primary/5 p-6 rounded-lg border-2 border-primary/20">
                   <div className="flex items-center gap-2 mb-3">
                     <Icon name="Star" size={20} className="text-primary" />
@@ -130,7 +130,7 @@ const Index = () => {
                   </h3>
                 </div>
               </div>
-              <div className="space-y-3 ml-16 text-muted-foreground">
+              <div className="space-y-3 ml-0 md:ml-16 text-muted-foreground">
                 <p className="flex items-start gap-2">
                   <Icon name="Check" size={20} className="text-primary mt-0.5 flex-shrink-0" />
                   <span>Создание гиперсегментированных динамических кампаний</span>
@@ -158,7 +158,7 @@ const Index = () => {
                   </h3>
                 </div>
               </div>
-              <div className="space-y-3 ml-16 text-muted-foreground">
+              <div className="space-y-3 ml-0 md:ml-16 text-muted-foreground">
                 <p className="flex items-start gap-2">
                   <Icon name="Check" size={20} className="text-primary mt-0.5 flex-shrink-0" />
                   <span><strong>Еженедельный Спринт-Отчет "Пульс Кампании":</strong> Каждый понедельник инфографика с планом/фактом</span>
