@@ -18,7 +18,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <section className="relative py-20 px-4 md:py-32 overflow-hidden">
+      <section className="relative py-20 px-3 md:px-4 md:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent"></div>
         <div className="container max-w-5xl mx-auto relative z-10">
           <div className="text-center space-y-6 animate-fade-in">
@@ -34,7 +34,7 @@ const Index = () => {
 
 
 
-      <section className="py-16 px-4 bg-muted/30">
+      <section className="py-16 px-3 md:px-4 bg-muted/30">
         <div className="container max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold">
@@ -43,7 +43,7 @@ const Index = () => {
           </div>
 
           <div className="grid gap-8 md:gap-12">
-            <Card className="p-8 animate-scale-in hover:shadow-lg transition-all duration-300">
+            <Card className="p-4 md:p-8 animate-scale-in hover:shadow-lg transition-all duration-300">
               <div className="mb-4">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
@@ -160,7 +160,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 px-4">
+      <section className="py-16 px-3 md:px-4">
         <div className="container max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -172,7 +172,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <Card className="p-6 hover:shadow-lg transition-all duration-300 animate-scale-in">
+            <Card className="p-4 md:p-6 hover:shadow-lg transition-all duration-300 animate-scale-in">
               <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                 <Icon name="Gauge" size={24} className="text-primary" />
               </div>
@@ -183,7 +183,7 @@ const Index = () => {
               <p className="text-sm font-semibold text-primary">Ценность: 25 000 рублей.</p>
             </Card>
 
-            <Card className="p-6 hover:shadow-lg transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.1s' }}>
+            <Card className="p-4 md:p-6 hover:shadow-lg transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.1s' }}>
               <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                 <Icon name="TrendingUp" size={24} className="text-primary" />
               </div>
@@ -194,7 +194,7 @@ const Index = () => {
               <p className="text-sm font-semibold text-primary">Ценность: 30 000 рублей.</p>
             </Card>
 
-            <Card className="p-6 hover:shadow-lg transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.2s' }}>
+            <Card className="p-4 md:p-6 hover:shadow-lg transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.2s' }}>
               <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                 <Icon name="ListChecks" size={24} className="text-primary" />
               </div>
@@ -208,7 +208,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 px-4 bg-secondary text-secondary-foreground">
+      <section className="py-16 px-3 md:px-4 bg-secondary text-secondary-foreground">
         <div className="container max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <Icon name="Shield" size={48} className="mx-auto mb-4 text-primary" />
@@ -220,7 +220,7 @@ const Index = () => {
             </p>
           </div>
           
-          <Card className="p-8 bg-background text-foreground">
+          <Card className="p-4 md:p-8 bg-background text-foreground">
             <div className="mb-8">
               <p className="text-lg leading-relaxed text-foreground">
                 Я не даю пустых обещаний по окупаемости. Вместо этого я даю твердую, измеримую гарантию на качество МОЕЙ работы, которая закрепляется в договоре.
@@ -251,7 +251,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 px-4">
+      <section className="py-16 px-3 md:px-4">
         <div className="container max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -319,7 +319,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 px-4 bg-muted/30">
+      <section className="py-16 px-3 md:px-4 bg-muted/30">
         <div className="container max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
