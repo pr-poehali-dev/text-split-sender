@@ -173,10 +173,15 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-6">
             <Card className="p-4 md:p-6 hover:shadow-lg transition-all duration-300 animate-scale-in">
-              <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
-                <Icon name="Gauge" size={24} className="text-primary" />
+              <div className="flex items-start gap-4 mb-4">
+                <div className="bg-primary/10 p-3 rounded-lg">
+                  <Icon name="Gauge" size={24} className="text-primary" />
+                </div>
+                <div>
+                  <Badge className="mb-2">Бонус №1</Badge>
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-3">Бонус №1: Персональный Дашборд "E-com Штурвал" в Яндекс.Метрике</h3>
+              <h3 className="text-xl font-bold mb-3">Персональный Дашборд "E-com Штурвал" в Яндекс.Метрике</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Создаю для вас персональный, настроенный дашборд прямо внутри вашего аккаунта Яндекс.Метрики. На одном экране вы будете видеть 3-5 ключевых показателей вашего бизнеса (ДРР, CPO, ROMI, выручка) в виде понятных графиков. Это ваш личный "штурвал" для контроля ситуации в любой момент.
               </p>
@@ -184,10 +189,15 @@ const Index = () => {
             </Card>
 
             <Card className="p-4 md:p-6 hover:shadow-lg transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.1s' }}>
-              <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
-                <Icon name="TrendingUp" size={24} className="text-primary" />
+              <div className="flex items-start gap-4 mb-4">
+                <div className="bg-primary/10 p-3 rounded-lg">
+                  <Icon name="TrendingUp" size={24} className="text-primary" />
+                </div>
+                <div>
+                  <Badge className="mb-2">Бонус №2</Badge>
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-3">Бонус №2: Стратегия Масштабирования "Следующий Уровень"</h3>
+              <h3 className="text-xl font-bold mb-3">Стратегия Масштабирования "Следующий Уровень"</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Через 3 месяца совместной работы я провожу отдельную стратегическую сессию и готовлю для вас пошаговый план: как увеличить количество заказов в 2-3 раза, сохранив или улучшив показатели рентабельности.
               </p>
@@ -195,10 +205,15 @@ const Index = () => {
             </Card>
 
             <Card className="p-4 md:p-6 hover:shadow-lg transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.2s' }}>
-              <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
-                <Icon name="ListChecks" size={24} className="text-primary" />
+              <div className="flex items-start gap-4 mb-4">
+                <div className="bg-primary/10 p-3 rounded-lg">
+                  <Icon name="ListChecks" size={24} className="text-primary" />
+                </div>
+                <div>
+                  <Badge className="mb-2">Бонус №3</Badge>
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-3">Бонус №3: Чек-лист "5-минутная Проверка Здоровья Кампании"</h3>
+              <h3 className="text-xl font-bold mb-3">Чек-лист "5-минутная Проверка Здоровья Кампании"</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Простой чек-лист из 5 пунктов, который позволит вам в любой момент самостоятельно убедиться, что система работает как надо.
               </p>
