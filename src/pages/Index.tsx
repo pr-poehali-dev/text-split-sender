@@ -222,57 +222,6 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 px-4 bg-muted/30">
-        <div className="container max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Почему нам доверяют
-            </h2>
-            <p className="text-muted-foreground text-lg">
-              Реальные кейсы и отзывы клиентов
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card className="p-6 border-l-4 border-l-primary animate-fade-in">
-              <div className="mb-4">
-                <Icon name="TrendingUp" size={32} className="text-primary mb-2" />
-                <h3 className="font-bold text-lg mb-2">Результат после другого подрядчика</h3>
-              </div>
-              <p className="text-muted-foreground leading-relaxed italic">
-                "Клиент Магазин X пришел после работы с фрилансером. Результат: в первую неделю охват 
-                вырос в <strong className="text-foreground">4 раза</strong>, а стоимость конверсии стала в 
-                <strong className="text-foreground"> 2 раза ниже</strong>. Эффективность кампании в 2 раза выше, чем ранее созданная."
-              </p>
-            </Card>
-
-            <Card className="p-6 border-l-4 border-l-primary animate-fade-in" style={{ animationDelay: '0.1s' }}>
-              <div className="mb-4">
-                <Icon name="Clock" size={32} className="text-primary mb-2" />
-                <h3 className="font-bold text-lg mb-2">Окупаемость с первого дня</h3>
-              </div>
-              <p className="text-muted-foreground leading-relaxed italic">
-                "Заказывал настройку. Получил заявки по нужной стоимости <strong className="text-foreground">в первый же день</strong>. 
-                Алексей погружается в работу и предлагает рабочие варианты, что действительно ценно для 
-                бизнеса — не сливать бюджет, а получать результат."
-              </p>
-            </Card>
-
-            <Card className="p-6 border-l-4 border-l-primary animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              <div className="mb-4">
-                <Icon name="Award" size={32} className="text-primary mb-2" />
-                <h3 className="font-bold text-lg mb-2">То, чего не умеют другие</h3>
-              </div>
-              <p className="text-muted-foreground leading-relaxed italic">
-                "Отличный специалист своего дела, знает все нюансы Директа, делает хорошую и 
-                <strong className="text-foreground"> уникальную (чего другие не умеют)</strong> настройку 
-                рекламных компаний, подсказывает и консультирует 'до и после'."
-              </p>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       <section className="py-16 px-4">
         <div className="container max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -336,6 +285,57 @@ const Index = () => {
               </p>
             </div>
           </Card>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 bg-muted/30">
+        <div className="container max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Почему нам доверяют
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Реальные кейсы и отзывы клиентов
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card className="p-6 border-l-4 border-l-primary animate-fade-in">
+              <div className="mb-4">
+                <Icon name="TrendingUp" size={32} className="text-primary mb-2" />
+                <h3 className="font-bold text-lg mb-2">Результат после другого подрядчика</h3>
+              </div>
+              <p className="text-muted-foreground leading-relaxed italic">
+                "Клиент Магазин X пришел после работы с фрилансером. Результат: в первую неделю охват 
+                вырос в <strong className="text-foreground">4 раза</strong>, а стоимость конверсии стала в 
+                <strong className="text-foreground"> 2 раза ниже</strong>. Эффективность кампании в 2 раза выше, чем ранее созданная."
+              </p>
+            </Card>
+
+            <Card className="p-6 border-l-4 border-l-primary animate-fade-in" style={{ animationDelay: '0.1s' }}>
+              <div className="mb-4">
+                <Icon name="Clock" size={32} className="text-primary mb-2" />
+                <h3 className="font-bold text-lg mb-2">Окупаемость с первого дня</h3>
+              </div>
+              <p className="text-muted-foreground leading-relaxed italic">
+                "Заказывал настройку. Получил заявки по нужной стоимости <strong className="text-foreground">в первый же день</strong>. 
+                Алексей погружается в работу и предлагает рабочие варианты, что действительно ценно для 
+                бизнеса — не сливать бюджет, а получать результат."
+              </p>
+            </Card>
+
+            <Card className="p-6 border-l-4 border-l-primary animate-fade-in" style={{ animationDelay: '0.2s' }}>
+              <div className="mb-4">
+                <Icon name="Award" size={32} className="text-primary mb-2" />
+                <h3 className="font-bold text-lg mb-2">То, чего не умеют другие</h3>
+              </div>
+              <p className="text-muted-foreground leading-relaxed italic">
+                "Отличный специалист своего дела, знает все нюансы Директа, делает хорошую и 
+                <strong className="text-foreground"> уникальную (чего другие не умеют)</strong> настройку 
+                рекламных компаний, подсказывает и консультирует 'до и после'."
+              </p>
+            </Card>
+          </div>
         </div>
       </section>
 
