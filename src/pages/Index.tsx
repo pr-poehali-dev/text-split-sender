@@ -3,7 +3,19 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
 
+declare global {
+  interface Window {
+    ym: (id: number, event: string, target: string) => void;
+  }
+}
+
 const Index = () => {
+  const handleButtonClick = () => {
+    if (typeof window !== 'undefined' && window.ym) {
+      window.ym(106053828, 'reachGoal', 'lead');
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <section className="relative py-20 px-4 md:py-32 overflow-hidden">
@@ -312,7 +324,7 @@ const Index = () => {
 
             <div className="space-y-4">
               <Button size="lg" className="w-full md:w-auto text-lg px-12 py-6 font-semibold" asChild>
-                <a href="https://t.me/avcybulya" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/avcybulya" target="_blank" rel="noopener noreferrer" onClick={handleButtonClick}>
                   Забронировать последнее место
                 </a>
               </Button>
@@ -386,13 +398,13 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="text-lg px-8 py-6" asChild>
-              <a href="https://t.me/avcybulya" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/avcybulya" target="_blank" rel="noopener noreferrer" onClick={handleButtonClick}>
                 <Icon name="Rocket" size={20} className="mr-2" />
                 Запустить систему
               </a>
             </Button>
             <Button size="lg" variant="outline" className="text-lg px-8 py-6" asChild>
-              <a href="https://t.me/avcybulya" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/avcybulya" target="_blank" rel="noopener noreferrer" onClick={handleButtonClick}>
                 <Icon name="MessageCircle" size={20} className="mr-2" />
                 Написать в телеграм
               </a>
