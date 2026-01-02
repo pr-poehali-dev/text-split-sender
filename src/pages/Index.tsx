@@ -97,7 +97,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="p-8 animate-scale-in hover:shadow-lg transition-all duration-300" style={{ animationDelay: '0.1s' }}>
+            <Card className="p-4 md:p-8 animate-scale-in hover:shadow-lg transition-all duration-300" style={{ animationDelay: '0.1s' }}>
               <div className="mb-4">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
@@ -127,7 +127,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="p-8 animate-scale-in hover:shadow-lg transition-all duration-300" style={{ animationDelay: '0.2s' }}>
+            <Card className="p-4 md:p-8 animate-scale-in hover:shadow-lg transition-all duration-300" style={{ animationDelay: '0.2s' }}>
               <div className="mb-4">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
