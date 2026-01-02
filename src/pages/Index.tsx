@@ -262,7 +262,7 @@ const Index = () => {
           <Card className="p-8 md:p-12 text-center">
             <div className="space-y-6 mb-8">
               <div className="flex items-center justify-between py-3 border-b">
-                <span className="text-muted-foreground">Внедрение и 1 месяц обслуживания</span>
+                <span className="text-muted-foreground">Внедрение и 3 месяца обслуживания</span>
                 <span className="font-semibold">60 000 ₽</span>
               </div>
               <div className="flex items-center justify-between py-3 border-b">
