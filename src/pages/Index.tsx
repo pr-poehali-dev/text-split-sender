@@ -49,7 +49,22 @@ const Index = () => {
                 </div>
               </div>
               <div className="space-y-4 ml-16">
-                <div>
+                <div className="bg-primary/5 p-6 rounded-lg border-2 border-primary/20">
+                  <div className="flex items-center gap-2 mb-3">
+                    <Icon name="Star" size={20} className="text-primary" />
+                    <h4 className="font-bold text-xl">
+                      Настройка "Гипер-Фида"
+                    </h4>
+                  </div>
+                  <p className="text-foreground leading-relaxed font-medium mb-2">
+                    Секретный соус системы "Товарный Снайпер"
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Аудит и доработка товарного фида. Исправляем ошибки, из-за которых вы теряете 
+                    до <strong className="text-foreground">80% релевантности</strong>. Обогащаем данными для ювелирной точности показов.
+                  </p>
+                </div>
+                <div className="pt-4 border-t">
                   <h4 className="font-semibold text-lg mb-2">
                     ABC-Анализ "Фокус на Прибыль"
                   </h4>
@@ -70,15 +85,6 @@ const Index = () => {
                       <span><strong>Группа С</strong> (50% товаров → 5% выручки): отключаем или оптимизируем</span>
                     </li>
                   </ul>
-                </div>
-                <div className="pt-4 border-t">
-                  <h4 className="font-semibold text-lg mb-2">
-                    Настройка "Гипер-Фида"
-                  </h4>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Аудит и доработка товарного фида. Исправляем ошибки, из-за которых вы теряете 
-                    до 80% релевантности. Обогащаем данными для ювелирной точности показов.
-                  </p>
                 </div>
               </div>
             </Card>
