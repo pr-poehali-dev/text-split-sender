@@ -27,6 +27,9 @@ const Index = () => {
       <section className="py-16 px-4 bg-muted/30">
         <div className="container max-w-5xl mx-auto">
           <div className="text-center mb-12">
+            <p className="text-lg md:text-xl text-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
+              Вы получаете не просто "ведение рекламы", а полноценную систему, которая работает на вас 24/7. Мы не просто приводим трафик, мы строим управляемый и предсказуемый канал продаж для вашего интернет-магазина.
+            </p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Что входит в систему
             </h2>
