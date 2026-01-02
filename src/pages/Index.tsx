@@ -18,7 +18,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <section className="relative py-20 px-3 md:px-4 md:py-32 overflow-hidden">
+      <section className="relative py-20 px-2 md:px-4 md:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent"></div>
         <div className="container max-w-5xl mx-auto relative z-10">
           <div className="text-center space-y-6 animate-fade-in">
@@ -34,7 +34,7 @@ const Index = () => {
 
 
 
-      <section className="py-16 px-3 md:px-4 bg-muted/30">
+      <section className="py-16 px-2 md:px-4 bg-muted/30">
         <div className="container max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold">
@@ -160,7 +160,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 px-3 md:px-4">
+      <section className="py-16 px-2 md:px-4">
         <div className="container max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -223,7 +223,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 px-3 md:px-4 bg-secondary text-secondary-foreground">
+      <section className="py-16 px-2 md:px-4 bg-secondary text-secondary-foreground">
         <div className="container max-w-5xl mx-auto text-center">
           <div className="mb-8">
             <Icon name="Shield" size={48} className="mx-auto mb-4 text-primary" />
@@ -266,7 +266,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 px-3 md:px-4">
+      <section className="py-16 px-2 md:px-4">
         <div className="container max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -334,7 +334,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 px-3 md:px-4 bg-muted/30">
+      <section className="py-16 px-2 md:px-4 bg-muted/30">
         <div className="container max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
