@@ -276,20 +276,20 @@ const Index = () => {
 
           <Card className="p-4 md:p-8 text-center">
             <div className="space-y-6 mb-8">
-              <div className="flex items-center justify-between py-3 border-b">
-                <span className="text-muted-foreground">Внедрение и 3 месяца обслуживания</span>
+              <div className="flex flex-col md:flex-row items-center justify-between py-3 border-b text-center md:text-left">
+                <span className="text-muted-foreground mb-2 md:mb-0">Внедрение и 3 месяца обслуживания</span>
                 <span className="font-semibold">60 000 ₽</span>
               </div>
-              <div className="flex items-center justify-between py-3 border-b">
-                <span className="text-muted-foreground">Бонус: Дашборд "E-com Штурвал"</span>
+              <div className="flex flex-col md:flex-row items-center justify-between py-3 border-b text-center md:text-left">
+                <span className="text-muted-foreground mb-2 md:mb-0">Бонус: Дашборд "E-com Штурвал"</span>
                 <span className="font-semibold text-primary">+ 25 000 ₽</span>
               </div>
-              <div className="flex items-center justify-between py-3 border-b">
-                <span className="text-muted-foreground">Бонус: Стратегия "Следующий Уровень"</span>
+              <div className="flex flex-col md:flex-row items-center justify-between py-3 border-b text-center md:text-left">
+                <span className="text-muted-foreground mb-2 md:mb-0">Бонус: Стратегия "Следующий Уровень"</span>
                 <span className="font-semibold text-primary">+ 30 000 ₽</span>
               </div>
-              <div className="flex items-center justify-between py-3 border-b">
-                <span className="text-muted-foreground">Бонус: Чек-лист проверки</span>
+              <div className="flex flex-col md:flex-row items-center justify-between py-3 border-b text-center md:text-left">
+                <span className="text-muted-foreground mb-2 md:mb-0">Бонус: Чек-лист проверки</span>
                 <span className="font-semibold text-primary">+ 10 000 ₽</span>
               </div>
             </div>
