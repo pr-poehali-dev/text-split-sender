@@ -24,6 +24,14 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="pt-16 pb-12 px-4">
+        <div className="container max-w-5xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
+            Внедрение и обслуживание Системы "Товарный Снайпер"
+          </h2>
+        </div>
+      </section>
+
       <section className="py-12 px-4">
         <div className="container max-w-4xl mx-auto">
           <div className="bg-primary/5 border-2 border-primary/20 rounded-lg p-8 md:p-10 text-center">
