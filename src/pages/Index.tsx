@@ -44,16 +44,18 @@ const Index = () => {
 
           <div className="grid gap-8 md:gap-12">
             <Card className="p-8 animate-scale-in hover:shadow-lg transition-all duration-300">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="bg-primary/10 p-3 rounded-lg">
-                  <Icon name="Target" size={28} className="text-primary" />
+              <div className="mb-4">
+                <div className="flex items-start gap-4">
+                  <div className="bg-primary/10 p-3 rounded-lg">
+                    <Icon name="Target" size={28} className="text-primary" />
+                  </div>
+                  <div>
+                    <Badge className="mb-2">1-я неделя</Badge>
+                  </div>
                 </div>
-                <div>
-                  <Badge className="mb-2">1-я неделя</Badge>
-                  <h3 className="text-2xl font-bold mb-2">
-                    Стратегический фундамент
-                  </h3>
-                </div>
+                <h3 className="text-2xl font-bold mt-4">
+                  Стратегический фундамент
+                </h3>
               </div>
               <div className="space-y-4 ml-0 md:ml-16">
                 <div className="bg-primary/5 p-6 rounded-lg border-2 border-primary/20">
@@ -96,16 +98,18 @@ const Index = () => {
             </Card>
 
             <Card className="p-8 animate-scale-in hover:shadow-lg transition-all duration-300" style={{ animationDelay: '0.1s' }}>
-              <div className="flex items-start gap-4 mb-4">
-                <div className="bg-primary/10 p-3 rounded-lg">
-                  <Icon name="Zap" size={28} className="text-primary" />
+              <div className="mb-4">
+                <div className="flex items-start gap-4">
+                  <div className="bg-primary/10 p-3 rounded-lg">
+                    <Icon name="Zap" size={28} className="text-primary" />
+                  </div>
+                  <div>
+                    <Badge className="mb-2">2-4 недели</Badge>
+                  </div>
                 </div>
-                <div>
-                  <Badge className="mb-2">2-4 недели</Badge>
-                  <h3 className="text-2xl font-bold mb-2">
-                    Запуск и калибровка "Боевой Системы"
-                  </h3>
-                </div>
+                <h3 className="text-2xl font-bold mt-4">
+                  Запуск и калибровка "Боевой Системы"
+                </h3>
               </div>
               <div className="space-y-3 ml-0 md:ml-16 text-muted-foreground">
                 <p className="flex items-start gap-2">
@@ -124,16 +128,18 @@ const Index = () => {
             </Card>
 
             <Card className="p-8 animate-scale-in hover:shadow-lg transition-all duration-300" style={{ animationDelay: '0.2s' }}>
-              <div className="flex items-start gap-4 mb-4">
-                <div className="bg-primary/10 p-3 rounded-lg">
-                  <Icon name="BarChart" size={28} className="text-primary" />
+              <div className="mb-4">
+                <div className="flex items-start gap-4">
+                  <div className="bg-primary/10 p-3 rounded-lg">
+                    <Icon name="BarChart" size={28} className="text-primary" />
+                  </div>
+                  <div>
+                    <Badge className="mb-2">Ежемесячно</Badge>
+                  </div>
                 </div>
-                <div>
-                  <Badge className="mb-2">Ежемесячно</Badge>
-                  <h3 className="text-2xl font-bold mb-2">
-                    Сервисное Обслуживание
-                  </h3>
-                </div>
+                <h3 className="text-2xl font-bold mt-4">
+                  Сервисное Обслуживание
+                </h3>
               </div>
               <div className="space-y-3 ml-0 md:ml-16 text-muted-foreground">
                 <p className="flex items-start gap-2">
