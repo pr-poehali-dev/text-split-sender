@@ -104,7 +104,7 @@ const Index = () => {
                     </li>
                     <li className="flex items-start gap-2">
                       <Icon name="Check" size={20} className="text-primary mt-0.5 flex-shrink-0" />
-                      <span><strong>Группа B</strong> (30% товаров, дающие 15% выручки): "Рабочие лошадки". Работаем над повышением их эффективности.</span>
+                      <span><strong>Группа B</strong> (30% товаров, дающие 15% выручки): "Рабочие лошадки". Работаю над повышением их эффективности.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Icon name="Check" size={20} className="text-primary mt-0.5 flex-shrink-0" />
