@@ -56,35 +56,34 @@ const Index = () => {
                       Настройка "Гипер-Фида"
                     </h4>
                   </div>
-                  <p className="text-foreground leading-relaxed font-medium mb-2">
-                    Секретный соус системы "Товарный Снайпер"
-                  </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Аудит и доработка товарного фида. Исправляем ошибки, из-за которых вы теряете 
-                    до <strong className="text-foreground">80% релевантности</strong>. Обогащаем данными для ювелирной точности показов.
+                    Мы проводим аудит и доработку вашего товарного фида. Находим и исправляем ошибки, из-за которых вы теряете до 80% релевантности. Мы обогащаем фид данными (размер, цвет, материал), чтобы Директ мог с ювелирной точностью показывать нужный товар на нужный запрос.
                   </p>
                 </div>
                 <div className="pt-4 border-t">
                   <h4 className="font-semibold text-lg mb-2">
                     ABC-Анализ "Фокус на Прибыль"
                   </h4>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Глубокий анализ вашей товарной матрицы по методу ABC:
+                  <p className="text-muted-foreground leading-relaxed mb-3">
+                    Мы проводим глубокий анализ вашей товарной матрицы по методу ABC, разделяя все товары на три категории:
                   </p>
-                  <ul className="mt-3 space-y-2 text-muted-foreground">
+                  <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <Icon name="Check" size={20} className="text-primary mt-0.5 flex-shrink-0" />
-                      <span><strong>Группа А</strong> (20% товаров → 80% выручки): максимум внимания и бюджета</span>
+                      <span><strong>Группа А</strong> (20% товаров, дающие 80% выручки): Ваши "чемпионы". На них мы направляем максимум внимания и бюджета.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Icon name="Check" size={20} className="text-primary mt-0.5 flex-shrink-0" />
-                      <span><strong>Группа B</strong> (30% товаров → 15% выручки): работа над эффективностью</span>
+                      <span><strong>Группа B</strong> (30% товаров, дающие 15% выручки): "Рабочие лошадки". Работаем над повышением их эффективности.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Icon name="Check" size={20} className="text-primary mt-0.5 flex-shrink-0" />
-                      <span><strong>Группа С</strong> (50% товаров → 5% выручки): отключаем или оптимизируем</span>
+                      <span><strong>Группа С</strong> (50% товаров, дающие 5% выручки): "Кандидаты на вылет". Мы либо отключаем на них рекламу, чтобы не сжигать бюджет, либо ищем способы сделать их рентабельными.</span>
                     </li>
                   </ul>
+                  <p className="text-muted-foreground leading-relaxed mt-3">
+                    Этот подход гарантирует, что каждый рубль вашего бюджета работает на самые прибыльные позиции.
+                  </p>
                 </div>
               </div>
             </Card>
