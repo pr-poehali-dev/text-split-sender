@@ -311,8 +311,10 @@ const Index = () => {
             </div>
 
             <div className="space-y-4">
-              <Button size="lg" className="w-full md:w-auto text-lg px-12 py-6 font-semibold">
-                Забронировать последнее место
+              <Button size="lg" className="w-full md:w-auto text-lg px-12 py-6 font-semibold" asChild>
+                <a href="https://t.me/avcybulya" target="_blank" rel="noopener noreferrer">
+                  Забронировать последнее место
+                </a>
               </Button>
               <p className="text-sm text-muted-foreground">
                 Превратите хаос в управляемый канал продаж
@@ -383,13 +385,17 @@ const Index = () => {
             Начните работать с гарантией защиты инвестиций уже сегодня.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8 py-6">
-              <Icon name="Rocket" size={20} className="mr-2" />
-              Запустить систему
+            <Button size="lg" className="text-lg px-8 py-6" asChild>
+              <a href="https://t.me/avcybulya" target="_blank" rel="noopener noreferrer">
+                <Icon name="Rocket" size={20} className="mr-2" />
+                Запустить систему
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6">
-              <Icon name="MessageCircle" size={20} className="mr-2" />
-              Задать вопрос
+            <Button size="lg" variant="outline" className="text-lg px-8 py-6" asChild>
+              <a href="https://t.me/avcybulya" target="_blank" rel="noopener noreferrer">
+                <Icon name="MessageCircle" size={20} className="mr-2" />
+                Написать в телеграм
+              </a>
             </Button>
           </div>
         </div>
