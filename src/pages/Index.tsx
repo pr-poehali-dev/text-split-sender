@@ -224,7 +224,7 @@ const Index = () => {
       </section>
 
       <section className="py-16 px-3 md:px-4 bg-secondary text-secondary-foreground">
-        <div className="container max-w-4xl mx-auto text-center">
+        <div className="container max-w-5xl mx-auto text-center">
           <div className="mb-8">
             <Icon name="Shield" size={48} className="mx-auto mb-4 text-primary" />
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -267,7 +267,7 @@ const Index = () => {
       </section>
 
       <section className="py-16 px-3 md:px-4">
-        <div className="container max-w-4xl mx-auto">
+        <div className="container max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Инвестиция в ваш рост
