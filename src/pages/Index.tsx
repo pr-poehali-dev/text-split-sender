@@ -345,7 +345,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
             <Card className="p-6 border-l-4 border-l-primary animate-fade-in">
               <div className="mb-4">
                 <Icon name="TrendingUp" size={32} className="text-primary mb-2" />
@@ -380,21 +380,6 @@ const Index = () => {
                 <strong className="text-foreground"> уникальную (чего другие не умеют)</strong> настройку 
                 рекламных компаний, подсказывает и консультирует 'до и после'."
               </p>
-            </Card>
-
-            <Card className="p-6 border-l-4 border-l-primary animate-fade-in" style={{ animationDelay: '0.3s' }}>
-              <div className="mb-4">
-                <Icon name="FileText" size={32} className="text-primary mb-2" />
-                <h3 className="font-bold text-lg mb-2">Интернет-магазин ЧПУ станков</h3>
-              </div>
-              <p className="text-muted-foreground leading-relaxed mb-4 italic">
-                "Благодарственное письмо от клиента. Интернет-магазин ЧПУ станков, комплектующих и расходников."
-              </p>
-              <img 
-                src="https://cdn.poehali.dev/files/image.png" 
-                alt="Благодарственное письмо от клиента" 
-                className="w-full rounded-lg border border-border"
-              />
             </Card>
           </div>
         </div>
