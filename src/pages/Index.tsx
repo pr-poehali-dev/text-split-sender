@@ -345,6 +345,24 @@ const Index = () => {
             </p>
           </div>
 
+          <Card className="p-6 md:p-8 mb-8 border-4 border-primary shadow-2xl animate-fade-in bg-gradient-to-br from-primary/5 to-background">
+            <div className="text-center mb-6">
+              <div className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-full mb-4 font-semibold">
+                <Icon name="Star" size={20} />
+                <span>Официальное благодарственное письмо</span>
+              </div>
+              <h3 className="text-2xl font-bold mb-2">ЧПУ Технологии СПб</h3>
+              <p className="text-muted-foreground">Интернет-магазин ЧПУ станков, комплектующих и расходников</p>
+            </div>
+            <div className="max-w-3xl mx-auto">
+              <img 
+                src="https://cdn.poehali.dev/files/ЧПУ Технологии СПб - Благодарственное письмо.jpg" 
+                alt="Благодарственное письмо от ЧПУ Технологии СПб" 
+                className="w-full rounded-lg border-2 border-border shadow-lg hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </Card>
+
           <div className="grid md:grid-cols-3 gap-6">
             <Card className="p-6 border-l-4 border-l-primary animate-fade-in">
               <div className="mb-4">
