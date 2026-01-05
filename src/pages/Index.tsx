@@ -144,15 +144,15 @@ const Index = () => {
               <div className="space-y-3 text-muted-foreground">
                 <p className="flex items-start gap-2">
                   <Icon name="Check" size={20} className="text-primary mt-0.5 flex-shrink-0" />
-                  <span><strong>Еженедельный Спринт-Отчет "Пульс Кампании":</strong> Каждый понедельник инфографика с планом/фактом</span>
+                  <span><strong>Еженедельный Спринт-Отчет "Пульс Кампании":</strong> Каждый понедельник вы получаете лаконичный отчет в инфографике: План/Факт по заказам, выручке и ROMI.</span>
                 </p>
                 <p className="flex items-start gap-2">
                   <Icon name="Check" size={20} className="text-primary mt-0.5 flex-shrink-0" />
-                  <span><strong>Ежемесячный Стратегический Созвон:</strong> Живой видео-созвон с анализом юнит-экономики</span>
+                  <span><strong>Ежемесячный Стратегический Созвон:</strong> Живой видео-созвон с демонстрацией экрана, где мы анализируем юнит-экономику, результаты ABC-анализа и планируем следующий месяц.</span>
                 </p>
                 <p className="flex items-start gap-2">
                   <Icon name="Check" size={20} className="text-primary mt-0.5 flex-shrink-0" />
-                  <span><strong>Сервис "Ранний Доступ":</strong> Тестируем новые технологии Директа на вашем проекте первыми</span>
+                  <span><strong>Сервис "Ранний Доступ":</strong> Я постоянно отслеживаю обновления Директа. Как только появляется новая технология, я аккуратно тестирую ее на вашем проекте, чтобы вы "сняли сливки" раньше конкурентов.</span>
                 </p>
               </div>
             </Card>
