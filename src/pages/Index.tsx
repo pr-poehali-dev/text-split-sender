@@ -338,7 +338,7 @@ const Index = () => {
         <div className="container max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Почему нам доверяют
+              Почему мне доверяют
             </h2>
             <p className="text-muted-foreground text-lg">
               Реальные кейсы и отзывы клиентов
